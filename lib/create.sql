@@ -1,5 +1,5 @@
-CREATE TABLE projects (id INTEGER, title TEXT, category TEXT, funding_goal REAL, start_date TEXT, end_date TEXT);
+CREATE TABLE projects (id INTEGER PRIMARY KEY, title TEXT, category TEXT, funding_goal REAL, start_date TEXT, end_date TEXT);
 
-CREATE TABLE users (id INTEGER, name TEXT, age INTEGER);
+CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER);
 
-CREATE TABLE pledges (id INTEGER, amount REAL, user_id INTEGER, project_id INTEGER);
+CREATE TABLE pledges (id INTEGER PRIMARY KEY, amount REAL, user_id INTEGER, project_id INTEGER);
