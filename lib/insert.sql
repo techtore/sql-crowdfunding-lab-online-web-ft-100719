@@ -1,1 +1,1 @@
-INSERT INTO projects(title) VALUES ();
+SELECT * FROM projects;
